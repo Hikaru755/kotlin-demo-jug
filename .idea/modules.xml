@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-jug.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-jug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-jug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-jug_main.iml" group="kotlin-jug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-jug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-jug_test.iml" group="kotlin-jug" />
+    </modules>
+  </component>
+</project>
