@@ -1,7 +1,7 @@
 package demo.language
 
 fun repeat(times: Int) {
-    for (index in 0..times-1) {
+    for (index in 0..times) {
         TODO()
     }
 }
