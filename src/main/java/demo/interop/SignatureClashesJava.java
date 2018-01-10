@@ -7,9 +7,9 @@ public class SignatureClashesJava {
 
     public static void main(String[] args) {
 
-        List<String> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
-        List<String> filtered = SignatureClashes.filterValid(list);
+        List<Integer> filtered = SignatureClashes.filterValidInt(list);
 
     }
 

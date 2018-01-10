@@ -1,7 +1,7 @@
 package demo.interop
 
 data class KotlinPerson
-@JvmOverloads constructor (
+@JvmOverloads constructor(
     val name: String,
     var email: String? = null
 )
@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     val jName = jPerson.name
     val kName = kPerson.name
 
-    jPerson.email = "$jName@example.com"
+    jPerson.email = "$jName.length@example.com"
     kPerson.email = "$kName@example.com"
 
 //    jPerson.name = ""

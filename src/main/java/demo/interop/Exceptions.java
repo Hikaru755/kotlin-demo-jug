@@ -8,4 +8,12 @@ public class Exceptions {
         throw new IOException();
     }
 
+    public static void main(String[] args) {
+        try {
+            ExceptionsKt.throwIOExceptionFromKotlin();
+        } catch (IOException e) {
+
+        }
+    }
+
 }

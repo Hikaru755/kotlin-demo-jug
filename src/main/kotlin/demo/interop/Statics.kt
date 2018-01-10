@@ -4,8 +4,9 @@ class Statics {
 
     companion object {
 
-        val STATIC_FIELD = 1
+        const val STATIC_FIELD = 1
 
+        @JvmStatic
         fun staticFunction(): Statics = Statics()
 
     }

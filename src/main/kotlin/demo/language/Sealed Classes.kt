@@ -1,21 +1,21 @@
 package demo.language
 
 
-enum class Result {
-    Success, Failure
-}
+sealed class Result<out T>
+class Success<T>(val value: T) : Result<T>()
+class Failure : Result<Nothing>()
 
 
-fun webcall(): Result = TODO()
+fun webcall(): Result<String> = TODO()
 
 
 fun main(args: Array<String>) {
 
-    val result = webcall()
+    val result: Result<String> = webcall()
 
     val display: String = when (result) {
-        Result.Success -> "Success"
-        Result.Failure -> "Error"
+        is Success -> result.value
+        is Failure -> "Error"
     }
 
     println(display)

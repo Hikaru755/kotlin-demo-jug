@@ -8,8 +8,11 @@ fun main(args: Array<String>) {
 
 }
 
-fun foo(bar: String) {
+fun foo(bar: String?) {
 
-    println(bar.length) // NPE waiting to happen? Not with Kotlin!
+    if(bar != null) {
+        println(bar.length)
+    }
+     // NPE waiting to happen? Not with Kotlin!
 
 }

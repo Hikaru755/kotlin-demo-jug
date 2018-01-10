@@ -44,5 +44,8 @@ public class OverloadsJava {
         overloads.query("users");
         overloads.query("name", "users");
         overloads.query("name", "users", null, null, "name asc");
+
+
+        Strings.lastChar("Hallo");
     }
 }
