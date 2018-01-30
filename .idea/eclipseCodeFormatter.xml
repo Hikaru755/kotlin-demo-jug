@@ -4,10 +4,12 @@
     <option name="selectedGlobalProfile">
       <Settings>
         <option name="formatter" value="ECLIPSE" />
-        <option name="id" value="1491221416148" />
+        <option name="id" value="1492003852971" />
+        <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/../dpa-common-dev/de.postadress.ide/DPA-import-order--eclipse-settings.importorder" />
+        <option name="importOrderFromFile" value="true" />
         <option name="name" value="solar" />
-        <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../solar/de.postadress.ide/eclipse/SolARCodeFormattingEclipse.xml" />
-        <option name="selectedJavaProfile" value="SolAR Code Formatter Settings" />
+        <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../dpa-common-dev/de.postadress.ide/DPA-code-formatter--eclipse-settings.xml" />
+        <option name="selectedJavaProfile" value="DPA Code Formatter Settings" />
       </Settings>
     </option>
   </component>

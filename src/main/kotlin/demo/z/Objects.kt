@@ -1,4 +1,4 @@
-package demo.language
+package demo.z
 
 object KotlinSingleton {
     const val SOME_CONSTANT = "Hello World"
