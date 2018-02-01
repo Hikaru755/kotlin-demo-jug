@@ -1,15 +1,9 @@
 package demo.language
 
-data class Person (
-    val vorname: String,
-    val nachname: String,
-    var email: String? = null
-)
 
 fun main(args: Array<String>) {
-    val max = Person("Max", "Mustermann")
+//    val max = Person("Max", "Mustermann", "max.mustermann@example.com")
 
 
-
-    println(max)
+//    println(max)
 }
