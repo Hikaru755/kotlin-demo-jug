@@ -1,4 +1,4 @@
-package demo.interop
+package demo.z
 
 class Statics {
 
